@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- bootstrap links  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid p-3">
+        <div class="row mx-4 my-4">
+            <div class="data col-lg-6 col-md-6 col-sm-12 col-xs-12 p-3 ">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" alt="" class="w-75 m-auto rounded">
+            </div>
+            <div  class="col-md-6 col-lg-6 col-sm-12 col-xs-12 d-flex justify-content-center flex-column">
+                <h3 class="font-weight-bold ">Create Account</h3>
+                <p class="text-mute mt-3 mb-3">Go ahead and sign up, let everyone know how awesome you are!</p>
+                <h3 id="alarmText" class=""></h3>
+                <form action="indexFinal.html" onsubmit="return sendData()">
+                    <input type="text" id="userName" placeholder="User Name" class="w-75 my-1 p-2" value="">
+                    <input type="text" id="email" placeholder="Email" class="w-75 my-1 p-2" value="">
+                    <input type="text" id="password" placeholder="Password" class="w-75 my-1 p-2" value="">
+                    <input type="text" id="confirm" placeholder="Confirm password" class="w-75 my-1 p-2" value="">
+                    <input type="submit" id="submit " class=" p-2 m-2 text-dark w-75 btn bg-primary" >
+                </form>
+ 
+            </div>
+        </div>
+    </div>
+    
+
+     <!-- javascript links  -->
+  <script src="javascript/jquery.slim.min.js"></script>
+  <script src="javascript/bootstrap.min.js"></script>
+  <script src="javascript/popper.min.js"></script>
+  
+  <script src="javascript/main.js"></script>
+</body>
+</html>
